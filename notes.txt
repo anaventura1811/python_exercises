@@ -1,0 +1,15 @@
+comandos do python
+python nomedoarquivo.extensao -> executa um arquivo ou módulo de código em python
+pip freeze --> lista as dependências instaladas com suas respectivas versões
+pip list --> lista as dependências instaladas de forma global
+pip freeze > requirements.txt --> lista as dependências e as adiciona ao arquivo txt requirements.txt
+pip list --outdated => verifica se há dependencias/pacotes desatualizados
+
+VENV
+python -m venv .venv --> cria a pasta .venv para ambiente virtual
+
+source .venv/bin/activate --> ativa o ambiente virtual
+
+pip install --upgrade nomedalib
+
+pip install -r requirements.txt (instala dependencias a partir de requirements)
